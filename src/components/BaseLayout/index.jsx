@@ -4,6 +4,7 @@ import injectSheet from 'react-jss';
 import { Helmet } from 'react-helmet';
 
 import { host } from '../../utils/helpers';
+import '../main.css';
 
 type Props = {
   children?: React.Node,

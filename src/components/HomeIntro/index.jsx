@@ -8,7 +8,7 @@ type Props = {
 
 const styles = theme => ({
   wrapper: {
-    height: 200,
+    height: '80vh',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'flex-start',
@@ -16,7 +16,7 @@ const styles = theme => ({
     margin: [[0, 18]],
     borderBottom: '1px solid #cccccc',
     '@media (min-width: 860px)': {
-      height: 400,
+      height: '100vh',
     },
   },
   title: {
@@ -25,6 +25,7 @@ const styles = theme => ({
     display: 'block',
     marginTop: 0,
     marginBottom: 10,
+    textShadow: '0 0 0.1em #32d9cb, 0 0 0.2em #32d9cb, 0 0 0.3em #32d9cb, 0 0 0.4em #00a6c0, 0 0 0.6em #00a6c0, 0 0 0.8em #00a6c0, 0 0 1em #00a6c0, 0 0 1.2em #00a6c0',
   },
   subTitle: {
     fontWeight: 400,
@@ -41,10 +42,10 @@ class HomeIntro extends React.PureComponent<Props> {
     return (
       <div className={classes.wrapper}>
         <h1 className={classes.title}>
-          WWWID
+          BGPND
         </h1>
         <h2 className={classes.subTitle}>
-          Update tren pengembangan web modern
+          Welcome to my website portofolio
         </h2>
       </div>
     );

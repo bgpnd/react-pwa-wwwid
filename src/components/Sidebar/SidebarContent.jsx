@@ -16,7 +16,7 @@ type State = {};
 const styles = theme => ({
   wrapper: {
     backgroundColor: 'white',
-    width: 256,
+    width: 'calc(100vw - 70px)',
     height: '100%',
   },
   header: {

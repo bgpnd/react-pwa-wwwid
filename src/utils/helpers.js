@@ -102,7 +102,8 @@ export const getCloudinaryImage = (img) => {
     heightSize = 54;
   }
 
-  const fetchUrl = `https://res.cloudinary.com/rizalibnu/image/fetch/c_fill,g_auto:face,h_${heightSize},w_${widthSize},fl_force_strip.progressive/f_${imageType}/`;
+  // const fetchUrl = `https://res.cloudinary.com/rizalibnu/image/fetch/c_fill,g_auto:face,h_${heightSize},w_${widthSize},fl_force_strip.progressive/f_${imageType}/`;
+  const fetchUrl = `https://res.cloudinary.com/bgpnd/image/upload/c_scale,c_fill,h_${heightSize},w_${widthSize}/v1580988055/sample.jpg`;
 
   return fetchUrl + img;
 };
